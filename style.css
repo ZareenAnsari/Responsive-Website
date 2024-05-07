@@ -1,0 +1,55 @@
+/* Custom CSS styles */
+
+/* Header */
+header {
+    background-color: #794c41;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #46515d !important;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-nav .nav-link {
+    color: #f9cccc;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f9cccc;
+}
+
+/* Main Content */
+.container {
+    padding: 30px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #5a6570;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 750px) {
+    header h1 {
+        font-size: 28px;
+    }
+}
